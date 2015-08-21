@@ -10,13 +10,18 @@ require('dr-promise').then(function () {
 
 It is really just a very small, simple wrapper around [`domready`].
 
+# Deprecation Notice
+
+As of version `1.0.0`, support for IE `6`-`8` and Firefox `< 4` has been
+dropped. If you require this level of support, please use version [`0.3.0`].
+
 ## Browser Support
 
-* IE6+ (Before `Edge` requires `Promise` polyfill)
-* Firefox 2+ (Before `29` requires `Promise` polyfill)
-* Safari 3+ (Before `7.1` requires `Promise` polyfill)
-* Chrome * (Before `33` requires `Promise` polyfill)
-* Opera * (Before `20` requires `Promise` polyfill)
+* IE `9+` (Before `Edge` requires `Promise` polyfill)
+* Firefox `4+` (Before `29` requires `Promise` polyfill)
+* Safari `3+` (Before `7.1` requires `Promise` polyfill)
+* Chrome `*` (Before `33` requires `Promise` polyfill)
+* Opera `*` (Before `20` requires `Promise` polyfill)
 
 ## Testing
 
@@ -52,3 +57,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [`domready`]: https://github.com/ded/domready "domReady"
+[`0.3.0`]: https://github.com/KenPowers/dr-promise/tree/v0.3.0 "v0.3.0"
