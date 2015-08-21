@@ -1,0 +1,31 @@
+{
+  "name": "dr-promise",
+  "version": "0.0.0",
+  "description": "A promise which resolves when the DOM is ready.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "beefy test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenpowers/dr-promise.git"
+  },
+  "keywords": [
+    "domready",
+    "dom",
+    "promise"
+  ],
+  "author": "Kenneth Powers <ken@kenpowers.net> (http://knpw.rs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenpowers/dr-promise/issues"
+  },
+  "homepage": "https://github.com/kenpowers/dr-promise#readme",
+  "dependencies": {
+    "domready": "^0.3.0"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "browserify": "^11.0.1"
+  }
+}
