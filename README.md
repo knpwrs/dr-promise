@@ -12,11 +12,11 @@ It is really just a very small, simple wrapper around [`domready`].
 
 ## Browser Support
 
-* IE6+ (Before Edge requires `Promise` polyfill)
-* Firefox 2+ (Before 29 requires `Promise` polyfill)
-* Safari 3+ (Before 7.1 requires `Promise` polyfill)
-* Chrome * (Before 33 requires `Promise` polyfill)
-* Opera * (Before 20 requires `Promise` polyfill)
+* IE6+ (Before `Edge` requires `Promise` polyfill)
+* Firefox 2+ (Before `29` requires `Promise` polyfill)
+* Safari 3+ (Before `7.1` requires `Promise` polyfill)
+* Chrome * (Before `33` requires `Promise` polyfill)
+* Opera * (Before `20` requires `Promise` polyfill)
 
 ## Testing
 
