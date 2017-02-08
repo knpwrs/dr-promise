@@ -1,5 +1,7 @@
 # dr-promise
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/knpwrs/dr-promise.svg)](https://greenkeeper.io/)
+
 This module exposes a promise which resolves when the DOM is ready:
 
 ``` js
